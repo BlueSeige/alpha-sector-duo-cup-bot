@@ -1,0 +1,16 @@
+{
+  "name": "alpha-sector-duo-cup-bot",
+  "version": "1.0.0",
+  "description": "Registration bot for the Alpha Sector Duo Cup (Brawlhalla 2v2 tournament)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0"
+  }
+}
